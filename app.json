@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "order-management-app",
+    "slug": "order-management-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "extra": {
+      "supabaseUrl": "https://tybcacyiusfyosyydfyb.supabase.co",
+      "supabaseAnonKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InR5YmNhY3lpdXNmeW9zeXlkZnliIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDEzMjg2NDksImV4cCI6MjA1NjkwNDY0OX0.IxTcTZQAZltMEJVW3cOB_pxnxhJluMou5CgOzifgEgk"
+    },
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
